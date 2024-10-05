@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* Style for the container div */
+div {
+  text-align: center; /* Align links to the center */
+}
+
+/* Style for the links */
+a {
+  display: inline-block; /* Make links display in a row */
+  margin: 10px; /* Add some space between links */
+  padding: 8px 16px; /* Add padding for better clickability */
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Set link color */
+  background-color: #f2f2f2; /* Set background color */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 4px; /* Add border radius */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+/* Hover effect for links */
+a:hover {
+  background-color: #ddd; /* Change background color on hover */
+}

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* Style for the form container */
+form {
+  max-width: 400px; /* Set maximum width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px; /* Add some padding inside the form */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add border radius */
+}
+
+/* Style for form inputs */
+input[type="text"],
+input[type="password"] {
+  width: 100%; /* Set input width to 100% */
+  margin-bottom: 10px; /* Add some space between inputs */
+  padding: 10px; /* Add padding for better appearance */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 4px; /* Add border radius */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+  width: 100%; /* Set button width to 100% */
+  padding: 10px; /* Add padding for better appearance */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Add border radius */
+  background-color: #007bff; /* Set button background color */
+  color: #fff; /* Set button text color */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
